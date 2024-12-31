@@ -1,13 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./WhatsApp\ Image\ 2024-12-30\ à\ 22.24.44_2be41975.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
 header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    backdrop-filter: blur(10px);
+    height: 50px;
+    box-shadow: 10px;
 }
-ul{
+.nav a {
+    margin-left: 20px;
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: purple;
+}
+
+.b1{
+    background-color:rgba(128, 0, 128, 0.418);
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 2px solid plum;
+}
+.logo{
+    color: azure;
+}
+main{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-li{
-   list-style: none;
+.form{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+   border: solid plum;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 380px;
+    width: 450px;
+    border-radius: 20px;
+   
+}
+.H1{
+    color: azure;
+   
+}
+.input{
+    border: 2px solid purple;
+  border-radius: 10px;
+  width:370px;
+  height: 40px;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+ 
+  
+}
+::-webkit-input-placeholder{
+    color: azure;
+}
+p{
+    color: azure;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+   
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.div2-1{
+    display: flex;
+    justify-content: space-between;
+}
+.b2{
+    background-color: rgba(128, 0, 128, 0.425);  
+    border: none;
+    color: white;
+   height: 40px;
+    width:370px ;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top:20px;
+}
+.P1{
+    
+    margin-top: 20px;
+}
+.div4{
+    margin-top: 10px;
+}
+.b3{
+   background-color: rgba(124, 11, 124, 0.411);
+    border: solid plum;
+    backdrop-filter: blur(10px);
+    color: white;
+   height: 40px;
+    width:450px ;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top:20px;
+}
+.div3{
+
+margin-top: 20px;
+
+}
+.div3 a{
+    color: azure;
+   
+}
+i{
+    color:azure;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    height: 30px;
+}
+footer a{
+    color: azure;
+    text-decoration: none;
 }
